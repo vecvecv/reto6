@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(0, 0, 26);
+}
+ul{ 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+li{ 
+    display: flex;
+    margin: 20px;
+}
+
+.btnEliminar{
+    text-shadow: 1px 1px 0px #7CACDE;
+    padding: 4px 8px;
+    -moz-border-radius: 600px;
+    -webkit-border-radius: 600px;
+    border-radius: 600px;
+    border: 3px solid #e45502;
+    background: #fefefe;
+}
+
+.trash{
+    width: 30px;
+}
+
+.contenedor{
+    width: 800px;
+    max-width: 1000px;
+    background-color: #2468b1;
+    display: flex;
+  
+    
+}
